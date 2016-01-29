@@ -12,6 +12,7 @@
 # into your terminal
 #
 # Arguments
+#
 #   bibname: name of your RIS file exported from Zotero
 #            without file extension
 #   prefix:  prefix to be added to the generated PDF
