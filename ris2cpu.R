@@ -1,18 +1,15 @@
-########################################################
+################################################################################
 #
 # ris2cpu.R
 #
-# Restructure Zotero RIS exports in order to be imported
-# into the joint EndNote file of the Group of
-# Environmental and Soil Chemistry at the University of
+# Restructure Zotero RIS exports in order to be imported into the joint EndNote
+# file of the Group of Environmental and Soil Chemistry at the University of
 # Koblenz-Landau
 #
-# Run script in batch mode by typing
+# Run script in batch mode by typing the following into your terminal:
 # > Rscript ris2cpu.R <bibname> <prefix> <startno>
-# into your terminal
 #
-# Arguments
-#
+# Arguments:
 #   bibname: name of your RIS file exported from Zotero
 #            without file extension
 #   prefix:  prefix to be added to the generated PDF
@@ -20,7 +17,7 @@
 #   startno: the initial value of the serial number
 #            added
 #
-########################################################
+################################################################################
 
 args <- (commandArgs(trailingOnly = T))
 
