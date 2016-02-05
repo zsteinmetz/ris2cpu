@@ -46,7 +46,7 @@ for(item in L1_list) {
   new <- file.path('.', prefix, paste0(prefix,'-', sprintf("%04d", no), '.pdf'))
   file.rename(pdf, new)
 
-  file[item] <- paste0('CN  - ', prefix,'-', sprintf("%04d", no))
+  file[item] <- paste0('CN  - ', prefix,'-', sprintf("%04d", no), '\nLB  - PDF')
   no <- no + 1
 }
 
