@@ -6,7 +6,7 @@ The script reads in the RIS file, deletes the file links of each reference entry
 
 ## Usage
 
-This script requires R available at [CRAN](https://cran.r-project.org/mirrors.html) Repository.
+This script requires R available at the [CRAN](https://cran.r-project.org/mirrors.html) repository.
 
 Download the [script](https://github.com/zsteinmetz/ris2cpu/blob/master/ris2cpu.R) and run the following command in your terminal:
 
