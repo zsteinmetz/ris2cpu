@@ -1,5 +1,8 @@
 # ris2cpu
 
+[![Project Status: Abandoned – Initial development has started, but there has not yet been a stable, usable release; the project has been abandoned and the author(s) do not intend on continuing development.](https://www.repostatus.org/badges/latest/abandoned.svg)](https://www.repostatus.org/#abandoned)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This short R script helps to restructure Zotero RIS exports in order to be imported into the joint EndNote file of the Group of Environmental and Soil Chemistry at the University of Koblenz-Landau.
 
 The script reads in the RIS file, deletes the file links of each reference entry (L1 tag) and replaces them by a unique identifier (CN tag) the attached files will be named after.
